@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import { Globalstyle } from "./GlobalStyle";
+import { seedDatabase } from './seed'
+
 // Import the functions you need from the SDKs you need
  
 import { FirebaseContext } from './context/firebase';
@@ -19,6 +21,7 @@ const config = {
 };
 
 const firebase = window.firebase.initializeApp(config);
+seedDatabase(firebase)
 
 ReactDOM.render(
     <FirebaseContext.Provider value={{ firebase: window.firebase }}>
