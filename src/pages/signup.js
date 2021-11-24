@@ -7,9 +7,10 @@ import { useContext, useState } from "react";
 import { FirebaseContext } from "../context/firebase";
 
 export default function Signup() {
-  const history = useHistory()
+
   const {firebase} = useContext(FirebaseContext)
- 
+  const history = useHistory()
+
  
 
   const [firstName, setFirstname] = useState("");
@@ -21,7 +22,7 @@ export default function Signup() {
 
   const handleSignup = (event) => {
     event.preventDefault();
- 
+    console.log(firebase)
     
     firebase
         .auth()
