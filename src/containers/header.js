@@ -1,13 +1,13 @@
 import { Header } from "../components";
 import * as Routes from "../constants/Routes";
 
-export default function HeaderComponent({ children }) {
+export default function HeaderComponent({children }) {
   return (
     <Header>
       <Header.Frame>
         <Header.Logo
           to={Routes.Home}
-          src={"./images/misc/logo.svg"}
+          src={"netflix-clone/images/misc/logo.svg"}
           alts="logo"
         />
         <Header.ButtonLink to={Routes.Sign_in}>

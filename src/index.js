@@ -12,16 +12,19 @@ import { FirebaseContext } from './context/firebase';
 
 // Your web app's Firebase configuration
 const config = {
-  apiKey: "AIzaSyAtdALpn1FehPYbeLrtmgsCnfMAcVwn6YA",
-  authDomain: "netflix-clone-6309c.firebaseapp.com",
-  projectId: "netflix-clone-6309c",
-  storageBucket: "netflix-clone-6309c.appspot.com",
-  messagingSenderId: "79341524545",
-  appId: "1:79341524545:web:eee9971ca4bb773c5898c0",
+  apiKey: "AIzaSyCwvMLCO6ezis3Ne1H_oDA-lUoPQ0ZtZOM",
+  authDomain: "netflix-84a57.firebaseapp.com",
+  projectId: "netflix-84a57",
+  storageBucket: "netflix-84a57.appspot.com",
+  messagingSenderId: "88204343287",
+  appId: "1:88204343287:web:dc295baaf476cc7f2720f2"
 };
 
 const firebase = window.firebase.initializeApp(config);
 seedDatabase(firebase)
+
+
+console.log('index.js')
 
 ReactDOM.render(
     <FirebaseContext.Provider value={{ firebase: window.firebase }}>

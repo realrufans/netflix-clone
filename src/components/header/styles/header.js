@@ -4,10 +4,10 @@ import { Link as ReachRouterLink } from 'react-router-dom';
 export const Background = styled.section`
     display: flex;
     flex-direction: column;
-    background: url(${({ src }) => (src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg.jpg')}) top left / cover no-repeat;
+    background: url(${({ src }) => (src ? `netflix-clone/images/misc/${src}.jpg` : 'netflix-clone/images/misc/home-bg.jpg')}) top left / cover no-repeat;
     
-    @media (max-width: 1100px) {
-        ${({ dontShowOnSmallViewPort }) => dontShowOnSmallViewPort && `background: none;`}
+    @media (max-width: 550px) {
+         background: none;
     }
 `
 
@@ -60,6 +60,12 @@ export const ButtonLink = styled(ReachRouterLink)`
     &:hover {
         background: #f40612;
     }
+
+    @media (max-width: 350px){
+     
+       max-height: min-content;
+       max-width:100px;
+    }
 `;
 
 export const Logo = styled.img`
@@ -71,4 +77,9 @@ export const Logo = styled.img`
         height: 45px;
         width: 167px;
     }
+
+    @media (max-width: 350px){
+     
+         max-width:100px;
+     }
 `;

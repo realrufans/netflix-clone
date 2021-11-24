@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Enjoy on your TV.",
     "subTitle": "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.",
-    "image": "/images/misc/home-tv.jpg",
+    "image": "netflix-clone/images/misc/home-tv.jpg",
     "alt": "Tiger King on Netflix",
     "direction": "row"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Download your programmes to watch on the go.",
     "subTitle": "Save your data and watch all your favourites offline.",
-    "image": "/images/misc/home-mobile.jpg",
+    "image": "netflix-clone/images/misc/home-mobile.jpg",
     "alt": "Tiger King on Netflix",
     "direction": "row-reverse"
   },
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Create profiles for kids.",
     "subTitle": "Send kids on adventures with their favorite characters in a space made just for them—free with your membership.",
-    "image": "/images/misc/kids.png",
+    "image": "netflix-clone/images/misc/kids.png",
     "alt": "Tiger King on Netflix",
     "direction": "row"
   }
